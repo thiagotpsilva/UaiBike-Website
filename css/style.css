@@ -213,11 +213,14 @@ img {
   height: 100%;
   background-image: url('../images/backgrounds/gym_bg.svg');
   background-image: url('../images/backgrounds/look-geo-city-grip-2.jpg');
+  background-image: url('../images/backgrounds/01.jpg');
   /* background-size: 190px; */
   /* background-attachment: fixed; */
   background-repeat: no-repeat;
   background-position: center center;
+  /* background-position: bottom; */
   opacity: 0.16;
+  background-size: cover;
   /* opacity: 0.61; */
   z-index: -1;
 }
@@ -425,6 +428,7 @@ img {
 .hero-info {
   background-image: url('../images/heros/hero_info.jpg');
   background-image: url('../images/heros/CMP-Trek_MY25_TopFuel-HighRes-6823-16X9.jfif');
+  /* background-image: url('../images/backgrounds/02.jpg'); */
 }
 
 #section-faq .flex-container {
@@ -965,6 +969,7 @@ tbody td {
   width: 100%;
   height: 100%;
   background-color: rgba(0, 0, 0, 0.74);
+  background-color: rgba(0, 0, 0, 0.65);
   z-index: -1;
 }
 
@@ -974,23 +979,23 @@ tbody td {
 }
 
 .slide:first-child {
-  background-image: url('../images/slider/slide_01.jpg');
+  background-image: url('../images/slider/01.jpg');
 }
 
 .slide:nth-child(2) {
-  background-image: url('../images/slider/slide_02.jpg');
+  background-image: url('../images/slider/02.jpg');
 }
 
 .slide:nth-child(3) {
-  background-image: url('../images/slider/slide_03.jpg');
+  background-image: url('../images/slider/03.jfif');
 }
 
 .slide:nth-child(4) {
-  background-image: url('../images/slider/slide_04.jpg');
+  background-image: url('../images/slider/04.jpg');
 }
 
 .slide:last-child {
-  background-image: url('../images/slider/slide_05.jpg');
+  background-image: url('../images/slider/05.jpg');
 }
 
 .slide:nth-child(4) .content {
@@ -1708,7 +1713,8 @@ input::placeholder {
   height: 100%;
   z-index: 4;
   /* background: #0999bf; */
-  background: var(--secondary-color);
+  /* background: var(--secondary-color); */
+  background-color: rgba(0, 0, 0, 0.6);
   /* background-color: red; */
   /* background: rgba(16, 137, 255, 0.3); */
   /* background: var(--secondary-color); */
