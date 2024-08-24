@@ -76,12 +76,16 @@ img {
 
 .logo {
   height: 100%;
+  /* width: 12rem; */
 }
 
 .logo img {
   /* width: 12rem; */
   height: 100%;
-  padding: 0.3rem;
+  width: 100%;
+
+  /* background-color: red; */
+  padding: 1rem;
   object-fit: cover;
   position: relative;
   left: -2.4rem;
@@ -110,11 +114,15 @@ img {
 .hero {
   position: relative;
   height: 70vh;
+
   background-size: cover;
   background-position: center center;
   background-attachment: fixed;
   background-repeat: no-repeat;
   z-index: 2;
+}
+.hero.hero-app {
+  height: 50vh;
 }
 
 .hero::before {
@@ -215,7 +223,7 @@ img {
   background-image: url('../images/backgrounds/look-geo-city-grip-2.jpg');
   background-image: url('../images/backgrounds/01.jpg');
   /* background-size: 190px; */
-  background-attachment: fixed;
+  /* background-attachment: fixed; */
   background-repeat: no-repeat;
   background-position: center center;
   /* background-position: bottom; */
@@ -292,6 +300,7 @@ img {
 
 #footer .social-icons i {
   transition: all 0.2s ease-in-out;
+  /* color: var(--primary-color); */
 }
 
 #footer .social-icons i:hover {
@@ -302,11 +311,13 @@ img {
 #footer .social-icons i {
   padding: 1.2rem;
   background-color: var(--dark-color);
+  background-color: var(--primary-color);
   border-radius: 1rem;
   min-width: 4.5rem;
   font-size: 1.6rem;
   text-align: center;
   margin: 0 0.21rem;
+  margin: 0 0.41rem;
 }
 
 #footer .flex-container:nth-child(2) {
@@ -360,6 +371,7 @@ img {
   bottom: 80rem;
   font-size: 4rem;
   background-color: var(--secondary-color);
+  background-color: var(--primary-color);
   color: var(--light-color);
   border-radius: 10px;
   cursor: pointer;
@@ -387,15 +399,22 @@ img {
 ::-webkit-scrollbar-thumb {
   background-color: var(--primary-color);
   border: 1px solid var(--secondary-color);
+  border: 1px solid #000;
 }
 
 ::-webkit-scrollbar-track {
   background-color: var(--secondary-color);
+  background-color: #000;
 }
 
 /* APP */
 .hero-app {
-  background-image: url('../images/heros/hero_app.jpg');
+  /* background-image: url('../images/heros/munbaik-cycling-clothing-5bCF12W6XsI-unsplash.jpg'); */
+  /* background-image: url('../images/heros/S341689eb9ba746f7b1377f381f666b518.jpg_640x640.jpg_.avif'); */
+  /* background-position: top; */
+  background-image: url('../images/heros/Mavic-aksium-elite-helmet-4-1536x1024.jpg');
+  background-position: top;
+  /* height: 60%; */
 }
 
 .hero-app .content {
@@ -459,7 +478,7 @@ img {
   font-weight: 200;
   transition: all 0.2s ease;
   background-color: var(--secondary-color);
-  background-color: rgba(0, 0, 0, 0.9);
+  background-color: rgba(0, 0, 0);
   color: var(--light-color);
 }
 
@@ -1857,4 +1876,60 @@ input::placeholder {
     margin-bottom: 9.5rem;
     text-align: center;
   }
+}
+
+/* PRICING */
+.section__pricing .grid-container {
+  gap: 2rem;
+  /* background-color: red; */
+  align-items: flex-start;
+  margin-bottom: 1rem;
+}
+.pricing__card {
+  /* border: 0.1rem solid rgba(0, 0, 0, 0.1); */
+  padding: 0.8rem;
+  border-radius: 2rem;
+  background-color: #fff;
+  /* box-shadow: 1px 1px 0px 0px var(--primary-color); */
+  /* box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset; */
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+  /* min-height: 67rem; */
+  transition: all 0.2s ease;
+}
+.pricing__card:hover {
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+}
+
+.pricing__image {
+  height: 30rem;
+  /* overflow: hidden; */
+  /* background-color: red; */
+}
+.pricing__image img {
+  object-fit: contain;
+  height: 100%;
+  /* background-color: red; */
+}
+.pricing__button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1rem;
+
+  margin-top: 1rem;
+}
+/* .pricing__button a {
+  background-color: #000;
+} */
+.btn__pricing {
+  width: 50%;
+}
+
+.pricing__title h3 {
+  font-weight: 400;
+  font-weight: 500;
+}
+
+.pricing__content p {
+  font-weight: lighter;
 }

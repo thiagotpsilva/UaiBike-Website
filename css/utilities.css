@@ -132,7 +132,9 @@
 .btn-primary {
   background-color: var(--primary-color);
 }
-
+.btn-dark {
+  background-color: #000;
+}
 .btn-secondary {
   background-color: var(--secondary-color);
 }
