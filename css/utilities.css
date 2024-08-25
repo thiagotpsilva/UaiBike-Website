@@ -53,7 +53,7 @@
   display: flex;
   padding: 1rem 0;
   align-items: flex-start;
-  border: 0.1rem solid #ccc;
+  border: 0.1rem solid rgba(0, 0, 0, 0.1);
   min-height: 14rem;
   border-radius: 1rem;
 }
@@ -61,13 +61,19 @@
 .flex-card i {
   padding: 1rem;
   min-width: 6rem;
+  color: var(--primary-color);
   text-align: center;
 }
 
 .flex-card h3 {
   text-transform: uppercase;
+  color: #000;
+  font-weight: 400;
 }
 
+.flex-card p {
+  font-weight: 300;
+}
 /* CARD */
 .card {
   background: #fff;
@@ -124,6 +130,7 @@
 .btn {
   display: flex;
   justify-content: center;
+  align-items: center;
   padding: 1.2rem 2rem;
   min-width: 20rem;
   cursor: pointer;
@@ -132,7 +139,13 @@
   border-radius: 1rem;
   color: var(--light-color);
 }
-
+.btn i {
+  margin-left: 0.6rem;
+  color: var(--primary-color);
+}
+.btn-primary i {
+  color: #fff;
+}
 .btn-primary {
   background-color: var(--primary-color);
 }
