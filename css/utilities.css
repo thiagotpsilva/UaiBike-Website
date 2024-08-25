@@ -53,6 +53,9 @@
   display: flex;
   padding: 1rem 0;
   align-items: flex-start;
+  border: 0.1rem solid #ccc;
+  min-height: 14rem;
+  border-radius: 1rem;
 }
 
 .flex-card i {
@@ -89,6 +92,7 @@
 
 .dark-bg {
   background-color: var(--dark-color);
+  background-color: #000;
   color: var(--light-color);
 }
 
