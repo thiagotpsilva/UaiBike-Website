@@ -127,7 +127,9 @@ img {
 .hero.hero-team {
   height: 50vh;
 }
-
+.hero.hero-agenda {
+  height: 50vh;
+}
 .hero::before {
   content: '';
   position: absolute;
@@ -427,7 +429,9 @@ img {
 .hero-app .content h1 {
   margin-top: 8rem;
 }
-
+.hero-agenda .content h1 {
+  margin-top: 8rem;
+}
 #section-features .flex-container,
 #section-app .flex-container {
   flex-direction: column;
@@ -614,7 +618,8 @@ img {
 
 /* AGENDA */
 .hero-agenda {
-  background-image: url('../images/heros/hero_agenda.jpg');
+  /* background-image: url('../images/heros/hero_agenda.jpg'); */
+  background-image: url('../images/bikes/wayne-bishop-7YUW7fvIYoQ-unsplash.jpg');
 }
 
 #section-tabs ul {
