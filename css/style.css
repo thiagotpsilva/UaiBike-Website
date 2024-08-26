@@ -2169,14 +2169,11 @@ input::placeholder {
 .switcher li {
   border-radius: 1rem;
   padding: 0.75rem 3rem;
-  /* background-color: #ccc; */
-  /* background-color: var(--secondary-color); */
   background-color: #000;
   color: var(--light-color);
   cursor: pointer;
   transition: 0.2s linear;
   font-size: 1.8rem;
-  /* text-transform: uppercase; */
   user-select: none;
   margin: 5px;
 }
